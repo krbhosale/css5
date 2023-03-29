@@ -1,0 +1,379 @@
+.body
+{
+    background-color: rgb(224, 224, 63);
+}
+.replicate
+{
+    text-align: center;
+}
+.row
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    animation: sample 3s infinite alternate;
+}
+.let
+{
+    text-align: center;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+}
+@keyframes sample
+{
+    0%
+    {
+        transform: skew(-30deg);
+    }
+    100%
+    {
+        transform: skew(30deg);
+    }
+}
+.cross
+{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    margin: 20px;
+    animation: simple 3s infinite alternate;
+}
+.cont
+{
+    display: flex;
+    justify-content: center;
+}
+@keyframes simple
+{
+    0%
+    {
+        transform: skewY(-30deg);
+    }
+    100%
+    {
+        transform: skewY(30deg);
+    }
+}
+.root
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    animation: stop 3s infinite normal;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+}
+@keyframes stop
+{
+    0%
+    {
+        transform: rotate(-90deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.stem
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+    animation: starts 3s infinite alternate;
+}
+.leaf
+{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 20px;
+    animation: shown 3s infinite alternate;
+}
+.tree
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 20px;
+    animation: stoped 3s infinite normal;
+}
+.console
+{
+    display: flex;
+    justify-content: center;
+}
+@keyframes starts
+{
+    0%
+    {
+        transform: scale(1,1);
+    }
+    100%
+    {
+        transform: scale(1,2);
+    }
+}
+@keyframes shown
+{
+    0%
+    {
+        transform: scale(-1,1);
+    }
+    100%
+    {
+        transform: scale(1,1);
+    }
+}
+@keyframes stoped
+{
+    0%
+    {
+        transform: rotate(-90deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+/* page 2  */
+.row1:hover
+{
+   
+    transition-duration: 3s;
+    width: 300px;
+}
+.row1
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.common
+{
+    margin-left: 670px;
+}
+.row2:hover
+{
+   
+    transition-duration: 3s;
+    width: 300px;
+    height: 300px;
+}
+.row2
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.row3:hover
+{
+    transition-timing-function:0;
+    transition-duration: 3s;
+    width: 300px;
+}
+.row3
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.row4:hover
+{
+    transition-timing-function: ease;
+    transition-duration: 3s;
+    width: 300px;
+}
+.row4
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.row5:hover
+{
+    transition-timing-function: ease-in;
+    transition-duration: 3s;
+    width: 300px;
+}
+.row5
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.row6:hover
+{
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+    width: 300px;
+}
+.row6
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.row7:hover
+{
+    transition-timing-function: ease-out;
+    transition-duration: 3s;
+    width: 300px;
+}
+.row7
+{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 20px;
+}
+.back
+{
+    text-align: center;
+}
+.next
+{
+    text-align: center;
+}
+
+/* page 3 */
+*{margin: 0;
+padding: 0;}
+.sky{
+    height: 96vh;
+    width: 98vw;
+    background-image: url(./sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    border: 10px groove;
+    border-color: white green white orange;
+}
+.india{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.happy{
+    font-size: x-large;
+    background-color: orange;
+    margin-left: 20px;
+}
+.independence{
+    font-size: x-large;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.day{
+    font-size: x-large;
+    background-color: green;
+    margin-right: 20px;
+}
+.sun{position: absolute;
+    top:80px;
+    right: 100px;
+     z-index: 2;
+}
+.sunny{
+    height: 120px;
+    width: 120px;
+}
+.flag{
+    position: absolute;
+    bottom: 190px;
+    right: 570px;
+    z-index: 10;
+}
+.flagcar{
+    height: 80px;
+    width: 80px;
+}
+.road{
+    height: 200px;
+    width: 500%;
+    background-image: url(./road.jpg);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation: road 5s linear infinite;
+}
+@keyframes road
+{
+    100%{
+        transform: translateX(-3000px);
+    }
+}
+.city{
+    height: 250px;
+    width: 500%;
+    background-image: url(./city.png);
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation: city 5s linear infinite;
+}
+@keyframes city
+{
+    100%{
+        transform: translateX(-1500px);
+    }
+}
+.car{
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.car img {
+    width: 100%;
+}
+.wheel{
+    left: 50%;
+    bottom: 180px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.wheel img{
+    width: 70px;
+    height: 70px;
+    animation: wheel 5s linear infinite;
+}
+.back-wheel{
+    left: -165px;
+    position: absolute;
+}
+.front-wheel{
+    left: 80px;
+    position: absolute;
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
